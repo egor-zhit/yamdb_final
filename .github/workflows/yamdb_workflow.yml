@@ -1,11 +1,10 @@
-name: Django-app workflow
+name: Yamdb workflow
 
 on: [push]
 
 jobs:
   tests:
     runs-on: ubuntu-latest
-
     steps:
     # Запуск actions checkout — готового скрипта 
     # для клонирования репозитория
